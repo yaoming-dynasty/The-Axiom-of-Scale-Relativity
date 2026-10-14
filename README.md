@@ -19,12 +19,12 @@
 
 ## 1. The Core Equation
 
-$$\Big(\big((0/1)\big)\Big) \sim \{\text{INFINITY}\} = \big[\text{INSIDE\_BOUNDARY} + \text{OUTSIDE\_BOUNDARY} + \text{BOUNDARY\_LINE}\big] = \big[\text{THE SUM\_OF\_ALL\_NUMBERS} = 0\big]$$
+$$\Big(\big((0/1)\big)\Big) \sim \{\text{INFINITY}\} = \big[\text{INSIDE BOUNDARY} + \text{OUTSIDE BOUNDARY} + \text{BOUNDARY LINE}\big] = \big[\text{SUM OF ALL NUMBERS} = 0\big]$$
 
 The framework unites three fundamental principles:
 1. **Scale Relativity (`((0/1))) ~ {INFINITY}`):** Micro-states and macro-states are reciprocal, codependent mirrors of scale.
 2. **Topological Partition (`[INSIDE + OUTSIDE + BOUNDARY]`):** Space and identity are fully defined by their internal domain, external environment, and transitional threshold.
-3. **Zero-Sum Equilibrium (`[THE SUM_OF_ALL_NUMBERS = 0]`):** Across a closed system, all forces, expansions, and structures net out to absolute rest.
+3. **Zero-Sum Equilibrium (`[SUM OF ALL NUMBERS = 0]`):** Across a closed system, all forces, expansions, and structures net out to absolute rest.
 
 ---
 
@@ -36,7 +36,7 @@ To operationalize the theorem computationally, here is the official algorithmic 
 class ScaleRelativitySystem:
     def __init__(self, system_name: str, base_state: float = 0.0):
         self.system_name = system_name
-        self.origin = base_state / 1.0  # Represents ((0/1))
+        self.origin = float(base_state)  # Represents ((0/1))
         self.inside_boundary = []
         self.outside_boundary = []
         self.boundary_line = []
@@ -58,13 +58,11 @@ class ScaleRelativitySystem:
         the closed topological manifold. Asserts the zero-sum law.
         """
         total_mass = sum(self.inside_boundary) + sum(self.outside_boundary) + sum(self.boundary_line)
-        # In a closed zero-sum relative system, positive states and negative potentials balance out:
-        net_equilibrium = total_mass - total_mass 
+        net_equilibrium = total_mass - total_mass  
         return float(net_equilibrium)
 
 # --- Execution Example ---
 if __name__ == "__main__":
-    # Author Certification Hook
     author = "Christopher Thomas Ronio"
     print(f"Initializing Framework by {author}...")
 
